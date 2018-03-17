@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#213050</color>
+    <color name="colorPrimaryDark">#1a2942</color>
+    <color name="colorPrimaryLight">#3a4062</color>
+    <color name="colorPrimaryDialog">#2f3e5e</color>
+    <color name="colorText">#dcdccb</color>
+    <color name="colorTextSecondary">#a7a78d</color>
+    <color name="colorButtons">#65533b</color>
+    <color name="black">#000000</color>
+    <color name="red_middle">#700000</color>
+    <color name="radio_dividers">#707000</color>
+    <color name="radio_bg">#c0c0c0</color>
+</resources>

@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="16dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp">
+
+    <TextView
+        android:text="Number of Pings:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_weight="1" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv"
+        card_view:cardElevation="3dp"
+        android:gravity="center"
+        card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="7dp">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="3dp">
+            <TableRow>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Device Model: "
+                    android:textColor="@color/colorPrimaryDark"
+
+                    android:textStyle="normal|bold"
+                    android:maxLines="1"
+                    android:textSize="16sp"/>
+</FrameLayout>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Undefined"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="normal"
+                        android:maxLines="2"
+                        android:textSize="16sp"
+                        android:id="@+id/device_model_textview"/>
+                </FrameLayout>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="3dp">
+            <TableRow>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Manufacturer:"
+                        android:textColor="@color/colorPrimaryDark"
+
+                        android:textStyle="normal|bold"
+                        android:maxLines="1"
+                        android:textSize="16sp"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Undefined"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="normal"
+                        android:maxLines="2"
+                        android:textSize="16sp"
+                        android:id="@+id/device_manufacturer_textview"/>
+                </FrameLayout>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="3dp">
+            <TableRow>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Android ID:"
+                        android:textColor="@color/colorPrimaryDark"
+
+                        android:textStyle="normal|bold"
+                        android:maxLines="1"
+                        android:textSize="16sp"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Undefined"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="normal"
+                        android:maxLines="2"
+                        android:textSize="16sp"
+                        android:id="@+id/device_android_id"/>
+                </FrameLayout>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="3dp">
+            <TableRow>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Android version:"
+                        android:textColor="@color/colorPrimaryDark"
+
+                        android:textStyle="normal|bold"
+                        android:maxLines="1"
+                        android:textSize="16sp"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Undefined"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="normal"
+                        android:maxLines="2"
+                        android:textSize="16sp"
+                        android:id="@+id/device_android_version"/>
+                </FrameLayout>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="3dp">
+            <TableRow>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Connection Type:"
+                        android:textColor="@color/colorPrimaryDark"
+
+                        android:textStyle="normal|bold"
+                        android:maxLines="1"
+                        android:textSize="16sp"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Undefined"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="normal"
+                        android:maxLines="2"
+                        android:textSize="16sp"
+                        android:id="@+id/conn_type_textview"/>
+                </FrameLayout>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="3dp">
+            <TableRow>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Data Used:"
+                        android:textColor="@color/colorPrimaryDark"
+
+                        android:textStyle="normal|bold"
+                        android:maxLines="1"
+                        android:textSize="16sp"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Undefined"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="normal"
+                        android:maxLines="2"
+                        android:textSize="16sp"
+                        android:id="@+id/data_used_textview"/>
+                </FrameLayout>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="3dp">
+            <TableRow>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time:"
+                        android:textColor="@color/colorPrimaryDark"
+
+                        android:textStyle="normal|bold"
+                        android:maxLines="1"
+                        android:textSize="16sp"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Undefined"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="normal"
+                        android:maxLines="2"
+                        android:textSize="16sp"
+                        android:id="@+id/time_textview"/>
+                </FrameLayout>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="3dp">
+            <TableRow>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Battery consumption:"
+                        android:textColor="@color/colorPrimaryDark"
+
+                        android:textStyle="normal|bold"
+                        android:maxLines="1"
+                        android:textSize="16sp"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Undefined"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="normal"
+                        android:maxLines="2"
+                        android:textSize="16sp"
+                        android:id="@+id/battery_before_textview"/>
+                </FrameLayout>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="3dp">
+            <TableRow>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Signal Strength:"
+                        android:textColor="@color/colorPrimaryDark"
+
+                        android:textStyle="normal|bold"
+                        android:maxLines="1"
+                        android:textSize="16sp"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Undefined"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="normal"
+                        android:maxLines="2"
+                        android:textSize="16sp"
+                        android:id="@+id/signal_strength_textview"/>
+                </FrameLayout>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="3dp">
+            <TableRow>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time Between Pings:"
+                        android:textColor="@color/colorPrimaryDark"
+
+                        android:textStyle="normal|bold"
+                        android:maxLines="1"
+                        android:textSize="16sp"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Undefined"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="normal"
+                        android:maxLines="2"
+                        android:textSize="16sp"
+                        android:id="@+id/timePings_textview"/>
+                </FrameLayout>
+            </TableRow>
+        </TableLayout>
+
+
+
+        <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="3dp">
+        <TableRow>
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Usage Type:"
+                    android:textColor="@color/colorPrimaryDark"
+
+                    android:textStyle="normal|bold"
+                    android:maxLines="1"
+                    android:textSize="16sp"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Undefined"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="normal"
+                    android:maxLines="2"
+                    android:textSize="16sp"
+                    android:id="@+id/pingBytes_textview"/>
+            </FrameLayout>
+        </TableRow>
+    </TableLayout>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="3dp">
+            <TableRow>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mode:"
+                        android:textColor="@color/colorPrimaryDark"
+
+                        android:textStyle="normal|bold"
+                        android:maxLines="1"
+                        android:textSize="16sp"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Undefined"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="normal"
+                        android:maxLines="2"
+                        android:textSize="16sp"
+                        android:id="@+id/mode_textview"/>
+                </FrameLayout>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="3dp">
+            <TableRow>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lost packets:"
+                        android:textColor="@color/colorPrimaryDark"
+
+                        android:textStyle="normal|bold"
+                        android:maxLines="1"
+                        android:textSize="16sp"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Undefined"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="normal"
+                        android:maxLines="2"
+                        android:textSize="16sp"
+                        android:id="@+id/lostpackets_textview"/>
+                </FrameLayout>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="3dp">
+            <TableRow>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bandwidth:"
+                        android:textColor="@color/colorPrimaryDark"
+
+                        android:textStyle="normal|bold"
+                        android:maxLines="1"
+                        android:textSize="16sp"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Undefined"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="normal"
+                        android:maxLines="2"
+                        android:textSize="16sp"
+                        android:id="@+id/bandwidth_textview"/>
+                </FrameLayout>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="3dp">
+            <TableRow>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jitter:"
+                        android:textColor="@color/colorPrimaryDark"
+
+                        android:textStyle="normal|bold"
+                        android:maxLines="1"
+                        android:textSize="16sp"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Undefined"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="normal"
+                        android:maxLines="2"
+                        android:textSize="16sp"
+                        android:id="@+id/jitter_textview"/>
+                </FrameLayout>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "389105275717",
+    "firebase_url": "https://netmetrics-63675.firebaseio.com",
+    "project_id": "netmetrics-63675",
+    "storage_bucket": "netmetrics-63675.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389105275717:android:b355019f50eecc04",
+        "android_client_info": {
+          "package_name": "gr.hobbyte.netmetrics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389105275717-buvti8c2752aegq1j7bt3kep1bd0fv9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAatr6qf_y51rQStXW_sDqaHtH_qCu-thc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
